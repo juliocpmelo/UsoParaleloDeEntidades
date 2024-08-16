@@ -19,6 +19,10 @@ o scheduler [DevolverLivroScheduler](src/main/java/com/usoparalelo/scheduler/Dev
 executa a cada 1 segundo o processamento dos livros que foram emprestados, para que sejam atualizados como
 devolvidos.
 
+Para facilitar a reprodução do problema o projeto tem alguns dados pré inseridos, verifique o seu banco de dados
+ou a classe [SetupInicial](src/main/java/com/usoparalelo/setupInicial/SetupInicial.java) para alterar
+ou adicionar novos dados.
+
 ## Executando o projeto
 
 O projeto usa maven, para executar apenas faça `mvn clean install` e execute o jar gerado. O projeto
